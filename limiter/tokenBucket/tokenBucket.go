@@ -51,7 +51,6 @@ func (t *TokenBucket) Allow() bool {
 	if t.tokens > t.capacity {
 		t.tokens = t.capacity // 确保令牌数不超过桶的容量。
 	}
-	t.lastRefill = now
 
 	// 如果桶中有令牌，则移除一个令牌并允许请求通过。
 	if t.tokens > 0 {
