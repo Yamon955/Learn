@@ -1,0 +1,5 @@
+2024-10-13 17:28:21.477	INFO	cmd/csv_traversal.go:80	start load file:./data/video.csv
+2024-10-13 17:28:21.485	INFO	cmd/csv_traversal.go:116	traverse video count:5, vid:4
+2024-10-13 17:28:21.495	INFO	cmd/csv_traversal.go:116	traverse video count:10, vid:9
+2024-10-13 17:28:21.505	INFO	cmd/csv_traversal.go:116	traverse video count:15, vid:14
+2024-10-13 17:28:21.507	INFO	cmd/csv_traversal.go:139	find vid count:9

@@ -4,7 +4,6 @@ import (
 	"bufio"
 	"encoding/csv"
 	"flag"
-	"fmt"
 	"io"
 	"os"
 	"time"
@@ -59,6 +58,7 @@ func newCSVTraversal(name string) *CSVTraversal {
 		index:      cmd.Int("index", 0, "start index"),
 		path:       cmd.String("path", "", "input file path"),
 		col:        cmd.Int("col", 0, "column number"),
+		condition:  cmd.String("condition", "", "find codition"),
 	}
 }
 
@@ -97,9 +97,7 @@ func (t *CSVTraversal) Process() string {
 		if err == io.EOF {
 			break
 		}
-		log.Infof("%v", record)
 		count++
-		fmt.Println(count)
 		if count <= nextIndex {
 			continue
 		}
@@ -108,12 +106,13 @@ func (t *CSVTraversal) Process() string {
 			continue
 		}
 		vi := &CSVTraversalInfo{
-			Vid: record[0],
+			Vid:   record[0],
+			Genre: record[*t.col],
 		}
 		for !limiter.Allow() {
 			continue
 		}
-		if count%2 == 0 {
+		if count%5 == 0 {
 			log.InfoContextf(ctx, "traverse video count:%v, vid:%v", count, vi.Vid)
 		}
 		group.Add()
@@ -142,4 +141,9 @@ func (t *CSVTraversal) Process() string {
 	return "success"
 }
 
-//  ./main csv_traversal -file=./data/video.csv -col=4
+/*
+
+查找 genre=Drama 的电影，记录符合条件的 vid
+./main csv_traversal -file=./data/video.csv -col=4 -condition=Drama
+
+*/
