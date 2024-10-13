@@ -1,0 +1,26 @@
+global: #全局配置
+  namespace: Production #环境类型，分正式Production和非正式Production两种类型
+  env_name: 04024680 #环境名称，非正式环境下多环境的名称
+  admin_port: 10005 #管理命令服务端口
+  enable_set: N #是否启用set
+  full_set_name: #set名
+client:
+  filter:
+    - debuglog
+  namespace: Production
+  service: #针对单个后端的配置
+
+
+plugins:
+  log:
+    default:
+      - writer: file #本地文件日志
+        level: INFO #本地文件滚动日志的级别
+        writer_config: #本地文件输出具体配置
+          log_path: ./ #本地文件日志路径
+          filename: trpc.log #本地文件日志文件名
+          roll_type: size #文件滚动类型,size为按大小滚动
+          max_age: 7 #最大日志保留天数
+          max_size: 1000 #本地文件滚动日志的大小 单位 MB
+          max_backups: 15 #最大日志文件数
+          compress: false #日志文件是否压缩
