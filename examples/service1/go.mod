@@ -1,12 +1,13 @@
-module github.com/Yamon955/Learn/examples/service2
+module github.com/Yamon955/Learn/examples/service1
 
 go 1.22.0
 
-replace github.com/Yamon955/Learn/examples/service2 => ../
+replace github.com/Yamon955/Learn/examples/service1 => ./
 
 require (
-	google.golang.org/protobuf v1.35.2
+	google.golang.org/protobuf v1.33.0
 	trpc.group/trpc-go/trpc-go v1.0.3
+	trpc.group/trpc-go/trpc-go/examples v0.0.0-20240603085624-1c5c0fbfa332
 )
 
 require (

@@ -2,8 +2,9 @@ package main
 
 import (
 	"context"
-	"github.com/Yamon955/Learn/examples/service2/pb"
+
 	trpc "trpc.group/trpc-go/trpc-go"
+	"github.com/Yamon955/Learn/examples/service1/pb"
 	"trpc.group/trpc-go/trpc-go/log"
 )
 
