@@ -1,0 +1,27 @@
+syntax = "proto2";
+package trpc.test.caculator;
+
+option go_package = "github.com/Yamon955/Learn/examples/caculator";
+
+service Caculator {
+    rpc Caculate(CaculateReq) returns(CaculateRsp);
+}
+
+
+
+message CaculateReq {
+    required double a = 1;
+    required double b = 2;
+    required Operators op = 3;
+}
+
+message CaculateRsp {
+    optional double ans = 1;
+}
+
+enum Operators {
+    ADD = 0;
+    SUB = 1;
+    MUL = 2;
+    DIV = 3;
+}
