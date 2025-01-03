@@ -1,8 +1,9 @@
 package main
 
 import (
-	"trpc.group/trpc-go/trpc-go"
 	cupb "github.com/Yamon955/Learn/examples/caculator/pb"
+	"trpc.group/trpc-go/trpc-go"
+	_ "trpc.group/trpc-go/trpc-naming-consul"
 )
 
 func main() {

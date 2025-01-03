@@ -8,6 +8,7 @@ server:                                            # server configuration.
   service:                                         # business service configuration，can have multiple.
     - name: trpc.test.service2.HelloWorldService              # the route name of the service.
       #ip: 0.0.0.0            #ip这行可以直接去掉，在docker容器内运行时，不能填127.0.0.1，否则不能对外访问，
+      ip: 127.0.0.1
       port: 8090                                  # the service listening port, can use the placeholder ${port}.
       network: tcp                                 # the service listening network type,  tcp or udp.
       protocol: trpc                               # application layer protocol, trpc or http.
@@ -17,7 +18,7 @@ client:
     - name: trpc.test.caculator.Caculator
       network: tcp
       protocol: trpc
-      target: ip://9.135.140.32:30001
+      target: consul://trpc.test.caculator.Caculator
       timeout: 1000
 
 
@@ -34,3 +35,30 @@ plugins:
           max_size: 1000 #本地文件滚动日志的大小 单位 MB
           max_backups: 15 #最大日志文件数
           compress: false #日志文件是否压缩
+  naming:
+    consul:
+      address: 127.0.0.1:8500
+      services:
+        - trpc.test.service2.HelloWorldService  # 一定要与 trpc service 相同
+      register: #  默认注册配置，上面的 services 会使用
+        interval: 1s
+        timeout: 1s
+        tags:
+          - test
+        meta:
+          appid: 1
+        weight: 10
+        deregister_critical_service_after: 10m
+      services_register: # 独立注册配置，不同服务可以有不同配置
+        - service: trpc.test.service2.HelloWorldService  # 一定要与 trpc service 相同
+          register: #  默认注册配置，上面的 services 会使用
+            interval: 1s
+            timeout: 1s
+            tags:
+              - test
+            meta:
+              appid: 1
+            weight: 10
+            deregister_critical_service_after: 10m
+      selector:
+        loadBalancer: random

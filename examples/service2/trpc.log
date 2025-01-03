@@ -6,3 +6,12 @@
 2024-12-16 10:17:25.816	INFO	admin/admin.go:192	process:1280676, admin server, closed
 2024-12-16 10:17:25.816	INFO	server/service.go:527	process:1280676, trpc service:trpc.test.service2.HelloWorldService, closing ...
 2024-12-16 10:17:25.816	INFO	server/service.go:554	process:1280676, trpc service:trpc.test.service2.HelloWorldService, closed
+2025-01-03 15:52:38.929	ERROR	server/service.go:163	process:58294, service:trpc.test.service2.HelloWorldService register fail:Unexpected response code: 400 (Invalid service address)
+2025-01-03 15:52:39.231	INFO	admin/admin.go:192	process:58294, admin server, closed
+2025-01-03 15:52:39.231	ERROR	server/serve_unix.go:82	service serve errors: 1 error occurred:
+	* Unexpected response code: 400 (Invalid service address)
+
+
+Note: it is normal to have "use of closed network connection" error during hot restart.
+DO NOT panic.
+2025-01-03 15:54:07.961	INFO	server/service.go:168	process:59000, trpc service:trpc.test.service2.HelloWorldService launch success, tcp:127.0.0.1:8090, serving ...
