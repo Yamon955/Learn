@@ -1,4 +1,32 @@
-2024-12-08 16:34:47.309	INFO	client/client_linux.go:35	client  is empowered with tnet! 🤩 
-2024-12-08 16:34:47.309	INFO	server/service_linux.go:21	service trpc.test.caculator.Caculator with network tcp and protocol trpc is empowered with tnet! 🤩 you can set 'transport: go-net' in your trpc_go.yaml's service configuration to switch to the golang net framework
-2024-12-08 16:34:47.309	INFO	tnet/server_transport.go:66	service:trpc.test.caculator.Caculator is using tnet transport, current number of pollers: 1
-2024-12-08 16:34:47.310	INFO	server/service.go:168	process:3477923, trpc service:trpc.test.caculator.Caculator launch success, tcp:0.0.0.0:9000, serving ...
+2024-12-19 20:20:07.378	INFO	client/client_linux.go:35	client  is empowered with tnet! 🤩 
+2024-12-19 20:20:07.378	INFO	server/service_linux.go:21	service trpc.test.caculator.Caculator with network tcp and protocol trpc is empowered with tnet! 🤩 you can set 'transport: go-net' in your trpc_go.yaml's service configuration to switch to the golang net framework
+2024-12-19 20:20:07.378	INFO	tnet/server_transport.go:66	service:trpc.test.caculator.Caculator is using tnet transport, current number of pollers: 1
+2024-12-19 20:20:07.378	INFO	server/service.go:168	process:4079023, trpc service:trpc.test.caculator.Caculator launch success, tcp:0.0.0.0:9000, serving ...
+2024-12-19 20:21:26.055	INFO	client/client_linux.go:35	client  is empowered with tnet! 🤩 
+2024-12-19 20:21:26.055	INFO	server/service_linux.go:21	service trpc.test.caculator.Caculator with network tcp and protocol trpc is empowered with tnet! 🤩 you can set 'transport: go-net' in your trpc_go.yaml's service configuration to switch to the golang net framework
+2024-12-19 20:21:26.055	INFO	tnet/server_transport.go:66	service:trpc.test.caculator.Caculator is using tnet transport, current number of pollers: 1
+2024-12-19 20:21:26.055	INFO	server/service.go:168	process:4082073, trpc service:trpc.test.caculator.Caculator launch success, tcp:0.0.0.0:9000, serving ...
+2024-12-19 21:06:09.553	INFO	client/client_linux.go:35	client  is empowered with tnet! 🤩 
+2024-12-19 21:06:09.553	INFO	server/service_linux.go:21	service trpc.test.caculator.Caculator with network tcp and protocol trpc is empowered with tnet! 🤩 you can set 'transport: go-net' in your trpc_go.yaml's service configuration to switch to the golang net framework
+2024-12-19 21:06:09.553	INFO	tnet/server_transport.go:66	service:trpc.test.caculator.Caculator is using tnet transport, current number of pollers: 1
+2024-12-19 21:06:09.553	INFO	server/service.go:168	process:10535, trpc service:trpc.test.caculator.Caculator launch success, tcp:0.0.0.0:9000, serving ...
+2024-12-19 21:32:44.048	INFO	client/client_linux.go:35	client  is empowered with tnet! 🤩 
+2024-12-19 21:32:44.049	INFO	server/service_linux.go:21	service trpc.test.caculator.Caculator with network tcp and protocol trpc is empowered with tnet! 🤩 you can set 'transport: go-net' in your trpc_go.yaml's service configuration to switch to the golang net framework
+2024-12-19 21:32:44.049	INFO	tnet/server_transport.go:66	service:trpc.test.caculator.Caculator is using tnet transport, current number of pollers: 1
+2024-12-19 21:32:44.049	INFO	server/service.go:168	process:80437, trpc service:trpc.test.caculator.Caculator launch success, tcp:0.0.0.0:9000, serving ...
+2024-12-19 21:37:07.205	INFO	client/client_linux.go:35	client  is empowered with tnet! 🤩 
+2024-12-19 21:37:07.205	INFO	server/service_linux.go:21	service trpc.test.caculator.Caculator with network tcp and protocol trpc is empowered with tnet! 🤩 you can set 'transport: go-net' in your trpc_go.yaml's service configuration to switch to the golang net framework
+2024-12-19 21:37:07.205	INFO	tnet/server_transport.go:66	service:trpc.test.caculator.Caculator is using tnet transport, current number of pollers: 1
+2024-12-19 21:37:07.206	INFO	server/service.go:168	process:90390, trpc service:trpc.test.caculator.Caculator launch success, tcp:0.0.0.0:9000, serving ...
+2024-12-19 21:37:41.879	INFO	client/client_linux.go:35	client  is empowered with tnet! 🤩 
+2024-12-19 21:37:41.880	INFO	server/service_linux.go:21	service trpc.test.caculator.Caculator with network tcp and protocol trpc is empowered with tnet! 🤩 you can set 'transport: go-net' in your trpc_go.yaml's service configuration to switch to the golang net framework
+2024-12-19 21:37:41.880	INFO	tnet/server_transport.go:66	service:trpc.test.caculator.Caculator is using tnet transport, current number of pollers: 1
+2024-12-19 21:37:41.880	INFO	server/service.go:168	process:91753, trpc service:trpc.test.caculator.Caculator launch success, tcp:0.0.0.0:9000, serving ...
+2024-12-19 21:40:24.556	INFO	client/client_linux.go:35	client  is empowered with tnet! 🤩 
+2024-12-19 21:40:24.556	INFO	server/service_linux.go:21	service trpc.test.caculator.Caculator with network tcp and protocol trpc is empowered with tnet! 🤩 you can set 'transport: go-net' in your trpc_go.yaml's service configuration to switch to the golang net framework
+2024-12-19 21:40:24.556	INFO	tnet/server_transport.go:66	service:trpc.test.caculator.Caculator is using tnet transport, current number of pollers: 1
+2024-12-19 21:40:24.556	INFO	server/service.go:168	process:97800, trpc service:trpc.test.caculator.Caculator launch success, tcp:0.0.0.0:9000, serving ...
+2024-12-20 10:57:07.357	INFO	client/client_linux.go:35	client  is empowered with tnet! 🤩 
+2024-12-20 10:57:07.357	INFO	server/service_linux.go:21	service trpc.test.caculator.Caculator with network tcp and protocol trpc is empowered with tnet! 🤩 you can set 'transport: go-net' in your trpc_go.yaml's service configuration to switch to the golang net framework
+2024-12-20 10:57:07.357	INFO	tnet/server_transport.go:66	service:trpc.test.caculator.Caculator is using tnet transport, current number of pollers: 1
+2024-12-20 10:57:07.357	INFO	server/service.go:168	process:1871157, trpc service:trpc.test.caculator.Caculator launch success, tcp:0.0.0.0:9000, serving ...

@@ -1,0 +1,8 @@
+2024-12-13 20:06:46.306	INFO	client/client_linux.go:35	client trpc.test.caculator.Caculator is empowered with tnet! 🤩 
+2024-12-13 20:06:46.306	INFO	client/client_linux.go:35	client  is empowered with tnet! 🤩 
+2024-12-13 20:06:46.306	INFO	server/service_linux.go:21	service trpc.test.service2.HelloWorldService with network tcp and protocol trpc is empowered with tnet! 🤩 you can set 'transport: go-net' in your trpc_go.yaml's service configuration to switch to the golang net framework
+2024-12-13 20:06:46.306	INFO	tnet/server_transport.go:66	service:trpc.test.service2.HelloWorldService is using tnet transport, current number of pollers: 1
+2024-12-13 20:06:46.306	INFO	server/service.go:168	process:1280676, trpc service:trpc.test.service2.HelloWorldService launch success, tcp:0.0.0.0:8090, serving ...
+2024-12-16 10:17:25.816	INFO	admin/admin.go:192	process:1280676, admin server, closed
+2024-12-16 10:17:25.816	INFO	server/service.go:527	process:1280676, trpc service:trpc.test.service2.HelloWorldService, closing ...
+2024-12-16 10:17:25.816	INFO	server/service.go:554	process:1280676, trpc service:trpc.test.service2.HelloWorldService, closed

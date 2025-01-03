@@ -2,7 +2,7 @@ module github.com/Yamon955/Learn/examples/service1
 
 go 1.22.0
 
-replace github.com/Yamon955/Learn/examples/service1 => ./
+replace github.com/Yamon955/Learn/examples/service1 => ../
 
 require (
 	google.golang.org/protobuf v1.33.0

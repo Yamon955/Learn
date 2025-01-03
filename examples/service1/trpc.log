@@ -1,0 +1,52 @@
+2024-12-19 20:16:11.643	INFO	client/client_linux.go:35	client  is empowered with tnet! 🤩 
+2024-12-19 20:16:11.644	INFO	server/service_linux.go:21	service trpc.test.service1.HelloWorldService with network tcp and protocol trpc is empowered with tnet! 🤩 you can set 'transport: go-net' in your trpc_go.yaml's service configuration to switch to the golang net framework
+2024-12-19 20:16:11.644	INFO	tnet/server_transport.go:66	service:trpc.test.service1.HelloWorldService is using tnet transport, current number of pollers: 1
+2024-12-19 20:16:11.644	INFO	server/service.go:168	process:4069990, trpc service:trpc.test.service1.HelloWorldService launch success, tcp:0.0.0.0:8080, serving ...
+2024-12-19 20:22:37.183	INFO	client/client_linux.go:35	client  is empowered with tnet! 🤩 
+2024-12-19 20:22:37.183	INFO	server/service_linux.go:21	service trpc.test.service1.HelloWorldService with network tcp and protocol trpc is empowered with tnet! 🤩 you can set 'transport: go-net' in your trpc_go.yaml's service configuration to switch to the golang net framework
+2024-12-19 20:22:37.184	INFO	tnet/server_transport.go:66	service:trpc.test.service1.HelloWorldService is using tnet transport, current number of pollers: 1
+2024-12-19 20:22:37.184	INFO	server/service.go:168	process:4084852, trpc service:trpc.test.service1.HelloWorldService launch success, tcp:0.0.0.0:8080, serving ...
+2024-12-19 20:26:47.218	INFO	client/client_linux.go:35	client  is empowered with tnet! 🤩 
+2024-12-19 20:26:47.218	INFO	server/service_linux.go:21	service trpc.test.service1.HelloWorldService with network tcp and protocol trpc is empowered with tnet! 🤩 you can set 'transport: go-net' in your trpc_go.yaml's service configuration to switch to the golang net framework
+2024-12-19 20:26:47.218	INFO	tnet/server_transport.go:66	service:trpc.test.service1.HelloWorldService is using tnet transport, current number of pollers: 1
+2024-12-19 20:26:47.219	INFO	server/service.go:168	process:4094742, trpc service:trpc.test.service1.HelloWorldService launch success, tcp:0.0.0.0:8080, serving ...
+2024-12-19 20:26:51.415	INFO	service1/main.go:22	got request: world
+2024-12-19 20:26:59.626	INFO	service1/main.go:22	got request: world
+2024-12-19 20:28:10.710	INFO	service1/main.go:22	got request: world
+2024-12-19 21:23:35.761	INFO	client/client_linux.go:35	client  is empowered with tnet! 🤩 
+2024-12-19 21:23:35.761	INFO	server/service_linux.go:21	service trpc.test.service1.HelloWorldService with network tcp and protocol trpc is empowered with tnet! 🤩 you can set 'transport: go-net' in your trpc_go.yaml's service configuration to switch to the golang net framework
+2024-12-19 21:23:35.761	INFO	tnet/server_transport.go:66	service:trpc.test.service1.HelloWorldService is using tnet transport, current number of pollers: 1
+2024-12-19 21:23:35.762	INFO	server/service.go:168	process:58714, trpc service:trpc.test.service1.HelloWorldService launch success, tcp:0.0.0.0:8080, serving ...
+2024-12-20 10:06:03.651	INFO	client/client_linux.go:35	client  is empowered with tnet! 🤩 
+2024-12-20 10:06:03.652	INFO	server/service_linux.go:21	service trpc.test.service1.HelloWorldService with network tcp and protocol trpc is empowered with tnet! 🤩 you can set 'transport: go-net' in your trpc_go.yaml's service configuration to switch to the golang net framework
+2024-12-20 10:06:03.652	INFO	tnet/server_transport.go:66	service:trpc.test.service1.HelloWorldService is using tnet transport, current number of pollers: 1
+2024-12-20 10:06:03.652	INFO	server/service.go:168	process:1735403, trpc service:trpc.test.service1.HelloWorldService launch success, tcp:0.0.0.0:8080, serving ...
+2024-12-20 10:08:50.548	INFO	client/client_linux.go:35	client  is empowered with tnet! 🤩 
+2024-12-20 10:08:50.548	INFO	server/service_linux.go:21	service trpc.test.service1.HelloWorldService with network tcp and protocol trpc is empowered with tnet! 🤩 you can set 'transport: go-net' in your trpc_go.yaml's service configuration to switch to the golang net framework
+2024-12-20 10:08:50.548	INFO	tnet/server_transport.go:66	service:trpc.test.service1.HelloWorldService is using tnet transport, current number of pollers: 1
+2024-12-20 10:08:50.548	INFO	server/service.go:168	process:1741762, trpc service:trpc.test.service1.HelloWorldService launch success, tcp:0.0.0.0:8080, serving ...
+2024-12-20 10:11:02.055	INFO	service1/main.go:22	got request: hello
+2024-12-20 10:11:09.458	INFO	service1/main.go:22	got request: hello
+2024-12-20 10:12:44.703	INFO	client/client_linux.go:35	client  is empowered with tnet! 🤩 
+2024-12-20 10:12:44.703	INFO	server/service_linux.go:21	service trpc.test.service1.HelloWorldService with network tcp and protocol trpc is empowered with tnet! 🤩 you can set 'transport: go-net' in your trpc_go.yaml's service configuration to switch to the golang net framework
+2024-12-20 10:12:44.703	INFO	tnet/server_transport.go:66	service:trpc.test.service1.HelloWorldService is using tnet transport, current number of pollers: 1
+2024-12-20 10:12:44.703	INFO	server/service.go:168	process:1751083, trpc service:trpc.test.service1.HelloWorldService launch success, tcp:0.0.0.0:8080, serving ...
+2024-12-20 10:21:13.213	INFO	client/client_linux.go:35	client  is empowered with tnet! 🤩 
+2024-12-20 10:21:13.214	INFO	server/service_linux.go:21	service trpc.test.service1.HelloWorldService with network tcp and protocol trpc is empowered with tnet! 🤩 you can set 'transport: go-net' in your trpc_go.yaml's service configuration to switch to the golang net framework
+2024-12-20 10:21:13.214	INFO	tnet/server_transport.go:66	service:trpc.test.service1.HelloWorldService is using tnet transport, current number of pollers: 1
+2024-12-20 10:21:13.214	INFO	server/service.go:168	process:1770955, trpc service:trpc.test.service1.HelloWorldService launch success, tcp:0.0.0.0:8080, serving ...
+2024-12-20 10:21:18.514	INFO	service1/main.go:22	got request: hello
+2024-12-20 10:21:20.208	INFO	service1/main.go:22	got request: hello
+2024-12-20 10:21:29.721	INFO	service1/main.go:22	got request: world
+2024-12-20 10:21:31.377	INFO	service1/main.go:22	got request: world
+2024-12-20 10:23:06.941	INFO	service1/main.go:22	got request: hello
+2024-12-20 10:32:02.363	INFO	client/client_linux.go:35	client  is empowered with tnet! 🤩 
+2024-12-20 10:32:02.364	INFO	server/service_linux.go:21	service trpc.test.service1.HelloWorldService with network tcp and protocol trpc is empowered with tnet! 🤩 you can set 'transport: go-net' in your trpc_go.yaml's service configuration to switch to the golang net framework
+2024-12-20 10:32:02.364	INFO	tnet/server_transport.go:66	service:trpc.test.service1.HelloWorldService is using tnet transport, current number of pollers: 1
+2024-12-20 10:32:02.364	INFO	server/service.go:168	process:1801474, trpc service:trpc.test.service1.HelloWorldService launch success, tcp:0.0.0.0:8080, serving ...
+2024-12-20 10:32:06.607	INFO	service1/main.go:22	got request: hello
+2024-12-20 10:32:13.111	INFO	service1/main.go:22	got request: hello
+2024-12-20 10:35:34.139	INFO	service1/main.go:22	got request: hello
+2024-12-20 10:54:00.696	INFO	service1/main.go:22	got request: hello
+2024-12-20 10:54:16.579	INFO	service1/main.go:22	got request: hello
+2024-12-20 10:57:54.249	INFO	service1/main.go:22	got request: hello

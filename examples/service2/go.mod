@@ -2,12 +2,12 @@ module github.com/Yamon955/Learn/examples/service2
 
 go 1.22.0
 
-replace github.com/Yamon955/Learn/examples/service2 => ../
-
 require (
 	google.golang.org/protobuf v1.35.2
 	trpc.group/trpc-go/trpc-go v1.0.3
 )
+
+require github.com/Yamon955/Learn/examples/caculator v0.0.0-20241208083737-d520bfceb0f6
 
 require (
 	github.com/BurntSushi/toml v0.3.1 // indirect
